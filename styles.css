@@ -1,1 +1,48 @@
 /*  your css code here. If applicable */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Card Styling */
+.card {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    margin: 50px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/* Image Styling */
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Title */
+.card h1 {
+    margin: 15px 0;
+}
+
+/* Paragraph */
+.card p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Button */
+.card button {
+    padding: 10px 20px;
+    background-color: #ff5c5c;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Hover Effect (optional but good) */
+.card button:hover {
+    background-color: #e14b4b;
+}
